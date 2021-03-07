@@ -21,6 +21,7 @@ public class Nacionalidad extends Common{
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
 	@Column
 	private Long idNacionalidad;
+	
 	@Column(length = 60 ,nullable= false)
 	private String descripcion ;
 	

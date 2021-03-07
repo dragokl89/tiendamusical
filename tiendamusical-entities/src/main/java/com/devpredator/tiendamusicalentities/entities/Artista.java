@@ -16,13 +16,15 @@ public class Artista extends Common{
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
 	@Column
 	private Long idArtista;
+	
 	@Column(length = 100 ,nullable= false)
 	private String nombre ;
+	
 	@Column(length = 100 ,nullable= false)
 	private String imagen ;
 	
 	@ManyToOne
-	@JoinColumn(name ="idNacioalidad")
+	@JoinColumn(name ="idNacionalidad")
 	private Nacionalidad nacionalidad ;
 	
 	
