@@ -10,6 +10,9 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.ViewScoped;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.devpredator.tiendamusicalentities.dto.ArtistaAlbumDTO;
 import com.devpredator.tiendamusicalservices.service.HomeService;
 
@@ -21,6 +24,10 @@ import com.devpredator.tiendamusicalservices.service.HomeService;
 @ViewScoped
 public class HomeController {
 
+	/**
+	 * Objeto que permite mostrar los mensajes de LOG en consola del servidor o en un archivo externo
+	 */
+	private static final Logger LOGGER = LogManager.getLogger(HomeController.class);
 	/**
 	 * Texto ingresado por el cliente en el buscado
 	 */
@@ -38,7 +45,10 @@ public class HomeController {
 	 */
 	@PostConstruct
 	public void init() {
-		System.out.println("Inicializando el home");
+		LOGGER.info("INFO");
+		LOGGER.warn("WARN");
+		LOGGER.error("ERROR");
+		LOGGER.fatal("FATAL");
 	}
 
 	/**
@@ -49,7 +59,7 @@ public class HomeController {
 		this.artistasAlbumDTO = this.homeServiceImpl.consultarAlbumsFiltro(this.filtro);
 		if (this.artistasAlbumDTO != null) {
 			this.artistasAlbumDTO.forEach(artistaAlbumDTO -> {
-				System.out.println("Artista: +" + artistaAlbumDTO.getArtista().getNombre());
+				LOGGER.info("Artista: +" + artistaAlbumDTO.getArtista().getNombre());
 			});
 		}
 	}
