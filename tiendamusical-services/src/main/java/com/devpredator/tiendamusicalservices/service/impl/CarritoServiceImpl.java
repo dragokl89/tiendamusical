@@ -33,4 +33,29 @@ public class CarritoServiceImpl implements CarritoService {
 		return carritoAlbum;
 	}
 
+	@Override
+	public float calcularTotal(Carrito carrito) {
+		// TODO Auto-generated method stub
+		float total= 0.0F;
+		//	Se realiza el calculo
+		for (CarritoAlbum ca : carrito.getCarritosAlbum()) {
+			total +=(ca.getAlbum().getValor()*ca.getCantidad());
+		}
+		return total;
+	
+	}
+
+	@Override
+	public void eliminarAlbumCarrito(CarritoAlbum carritoAlbum) {
+		// TODO Auto-generated method stub
+		this.carritoAlbumDAO.delete(carritoAlbum);
+	}
+
+	@Override
+	public float actualizarAlbumCantidad(CarritoAlbum carritoAlbum ,Carrito carrito) {
+		// TODO Auto-generated method stub
+	    this.carritoAlbumDAO.save(carritoAlbum);
+	    return this.calcularTotal(carrito);
+	}
+
 }

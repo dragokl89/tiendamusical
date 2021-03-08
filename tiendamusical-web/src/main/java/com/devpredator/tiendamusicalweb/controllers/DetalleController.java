@@ -23,7 +23,7 @@ import com.devpredator.tiendamusicalweb.session.SessionBean;
 @ViewScoped
 public class DetalleController {
 
-	private static final Logger LOGGER = LogManager.getLogger(HomeController.class);
+	private static final Logger LOGGER = LogManager.getLogger(DetalleController.class);
 	/*
 	 * Cantidad del producto seleccionado
 	 */

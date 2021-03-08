@@ -30,7 +30,7 @@ import com.devpredator.tiendamusicalweb.utils.CommonUtils;
 @ViewScoped
 public class LoginController {
 	
-	private static final Logger LOGGER = LogManager.getLogger(HomeController.class);
+	private static final Logger LOGGER = LogManager.getLogger(LoginController.class);
 	/**
 	 * Usuario capturado por la persona
 	 */
