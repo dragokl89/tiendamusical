@@ -260,3 +260,201 @@
 16:36:44.692 [http-nio-8080-exec-9] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
 16:36:44.692 [http-nio-8080-exec-9] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
 16:41:03.736 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:29:52.695 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+17:29:53.224 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:29:53.363 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111 ms. Found 2 JPA repository interfaces.
+17:29:53.925 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:29:54.072 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+17:29:54.416 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:29:55.100 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+17:29:56.919 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:29:56.946 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:29:58.266 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5557 ms
+17:30:16.652 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+17:30:16.653 [http-nio-8080-exec-3] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+17:30:16.653 [http-nio-8080-exec-3] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+17:30:16.653 [http-nio-8080-exec-3] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+17:30:18.592 [http-nio-8080-exec-2] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Iron Maiden
+17:30:18.592 [http-nio-8080-exec-2] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+17:30:18.592 [http-nio-8080-exec-2] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+17:32:37.647 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+17:32:37.647 [http-nio-8080-exec-4] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+17:32:37.647 [http-nio-8080-exec-4] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+17:32:37.647 [http-nio-8080-exec-4] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+17:32:39.519 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Iron Maiden
+17:32:39.519 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+17:32:39.519 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+17:32:43.448 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+17:32:43.448 [http-nio-8080-exec-3] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+17:32:43.448 [http-nio-8080-exec-3] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+17:32:43.448 [http-nio-8080-exec-3] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+17:32:50.012 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+17:32:50.012 [http-nio-8080-exec-6] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+17:32:50.013 [http-nio-8080-exec-6] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+17:32:50.013 [http-nio-8080-exec-6] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+17:32:56.280 [http-nio-8080-exec-8] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+17:32:56.280 [http-nio-8080-exec-8] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+17:32:56.280 [http-nio-8080-exec-8] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+17:32:56.280 [http-nio-8080-exec-8] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+17:33:00.696 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +AC-DC
+17:33:00.697 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Arctic Monkeys
+17:33:00.697 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Iron Maiden
+17:33:00.697 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+17:33:00.697 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+17:33:00.697 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Muse
+17:33:01.026 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Arctic Monkeys
+17:33:01.026 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Iron Maiden
+17:33:01.026 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+17:33:01.026 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+17:33:01.026 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Muse
+17:33:31.682 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+17:33:31.683 [http-nio-8080-exec-4] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+17:33:31.683 [http-nio-8080-exec-4] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+17:33:31.683 [http-nio-8080-exec-4] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+17:33:33.463 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Iron Maiden
+17:33:33.463 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+17:33:33.463 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+17:34:14.387 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+17:34:14.387 [http-nio-8080-exec-10] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+17:34:14.387 [http-nio-8080-exec-10] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+17:34:14.387 [http-nio-8080-exec-10] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+17:34:24.787 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+17:34:24.788 [http-nio-8080-exec-10] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+17:34:24.788 [http-nio-8080-exec-10] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+17:34:24.788 [http-nio-8080-exec-10] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+17:34:40.037 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+17:34:40.038 [http-nio-8080-exec-10] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+17:34:40.038 [http-nio-8080-exec-10] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+17:34:40.038 [http-nio-8080-exec-10] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+17:34:42.069 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Iron Maiden
+17:34:42.069 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+17:34:42.069 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+17:38:49.503 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:03:24.079 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+18:03:24.694 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:03:24.849 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125 ms. Found 2 JPA repository interfaces.
+18:03:25.404 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:03:25.554 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+18:03:25.904 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:03:26.579 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:03:28.300 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:03:28.325 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:03:29.652 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5557 ms
+18:07:40.666 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+18:07:41.245 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:07:41.394 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 123 ms. Found 2 JPA repository interfaces.
+18:07:42.013 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:07:42.158 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+18:07:42.502 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:07:43.170 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:07:44.803 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:07:44.826 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:07:46.102 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5419 ms
+18:07:53.277 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - ALbums del carrito filtrado
+18:07:53.587 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+18:07:53.588 [http-nio-8080-exec-5] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+18:07:53.588 [http-nio-8080-exec-5] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+18:07:53.588 [http-nio-8080-exec-5] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+18:15:07.646 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:30:07.423 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+18:30:07.911 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:30:08.064 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 126 ms. Found 2 JPA repository interfaces.
+18:30:08.652 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:30:08.826 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+18:30:09.189 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:30:09.942 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:30:11.681 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:30:11.706 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:30:12.929 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5494 ms
+18:30:27.277 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:32:55.310 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+18:32:55.862 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:32:56.014 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 116 ms. Found 2 JPA repository interfaces.
+18:32:56.653 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:32:56.810 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+18:32:57.235 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:32:57.962 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:32:59.915 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:32:59.940 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:33:01.202 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5877 ms
+18:33:23.817 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - ALbums del carrito filtrado
+18:33:24.200 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+18:33:24.200 [http-nio-8080-exec-10] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+18:33:24.200 [http-nio-8080-exec-10] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+18:33:24.201 [http-nio-8080-exec-10] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+18:33:26.514 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Iron Maiden
+18:33:26.514 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+18:33:26.514 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+18:33:30.174 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Agregando album al carrito de compra , Cantidad :4
+18:33:42.216 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Agregando album al carrito de compra , Cantidad :1
+18:35:17.561 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:38:40.505 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+18:38:41.138 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:38:41.275 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 110 ms. Found 2 JPA repository interfaces.
+18:38:41.833 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:38:41.976 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+18:38:42.314 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:38:42.967 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:38:44.590 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:38:44.615 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:38:45.871 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5348 ms
+18:38:53.454 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - ALbums del carrito filtrado
+18:38:53.833 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+18:38:53.834 [http-nio-8080-exec-5] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+18:38:53.834 [http-nio-8080-exec-5] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+18:38:53.834 [http-nio-8080-exec-5] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+18:38:55.421 [http-nio-8080-exec-9] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Iron Maiden
+18:38:55.422 [http-nio-8080-exec-9] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+18:38:55.422 [http-nio-8080-exec-9] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+18:38:58.533 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Agregando album al carrito de compra , Cantidad :3
+18:40:47.953 [Catalina-utility-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:40:51.866 [Catalina-utility-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+18:40:52.347 [Catalina-utility-1] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:40:52.500 [Catalina-utility-1] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 133 ms. Found 2 JPA repository interfaces.
+18:40:53.060 [Catalina-utility-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:40:53.213 [Catalina-utility-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+18:40:53.581 [Catalina-utility-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:40:54.256 [Catalina-utility-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:40:56.051 [Catalina-utility-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:40:56.083 [Catalina-utility-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:40:57.534 [Catalina-utility-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5655 ms
+19:13:42.650 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+19:13:43.272 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:13:43.423 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 121 ms. Found 3 JPA repository interfaces.
+19:13:44.240 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:13:44.407 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+19:13:44.875 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:13:45.668 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+19:13:47.519 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:13:47.545 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:13:48.877 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 6209 ms
+19:13:56.921 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - ALbums del carrito filtrado
+19:13:57.288 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+19:13:57.288 [http-nio-8080-exec-5] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+19:13:57.288 [http-nio-8080-exec-5] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+19:13:57.288 [http-nio-8080-exec-5] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+19:13:59.564 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Iron Maiden
+19:13:59.564 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+19:13:59.564 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+19:14:04.390 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Agregando album al carrito de compra , Cantidad :3
+19:23:23.290 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+19:23:23.745 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:23:23.888 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 117 ms. Found 3 JPA repository interfaces.
+19:23:24.424 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:23:24.567 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+19:23:24.913 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:23:25.568 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+19:23:27.200 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:23:27.232 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:23:28.488 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5186 ms
+19:23:37.214 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - ALbums del carrito filtrado
+19:23:37.564 [http-nio-8080-exec-8] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+19:23:37.564 [http-nio-8080-exec-8] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+19:23:37.564 [http-nio-8080-exec-8] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+19:23:37.564 [http-nio-8080-exec-8] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+19:23:38.785 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Iron Maiden
+19:23:38.785 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+19:23:38.785 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+19:23:43.023 [http-nio-8080-exec-1] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Agregando album al carrito de compra , Cantidad :2
+19:23:50.819 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Agregando album al carrito de compra , Cantidad :4
+19:24:04.019 [http-nio-8080-exec-9] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Agregando album al carrito de compra , Cantidad :1

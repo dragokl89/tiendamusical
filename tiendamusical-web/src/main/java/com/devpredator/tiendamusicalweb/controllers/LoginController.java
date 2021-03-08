@@ -4,6 +4,9 @@
 package com.devpredator.tiendamusicalweb.controllers;
 
 import java.io.IOException;
+import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 import javax.annotation.PostConstruct;
 import javax.faces.application.FacesMessage;
@@ -11,6 +14,10 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.ViewScoped;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.devpredator.tiendamusicalentities.entities.CarritoAlbum;
 import com.devpredator.tiendamusicalentities.entities.Persona;
 import com.devpredator.tiendamusicalservices.service.LoginService;
 import com.devpredator.tiendamusicalweb.session.SessionBean;
@@ -22,6 +29,8 @@ import com.devpredator.tiendamusicalweb.utils.CommonUtils;
 @ManagedBean(name = "login")
 @ViewScoped
 public class LoginController {
+	
+	private static final Logger LOGGER = LogManager.getLogger(HomeController.class);
 	/**
 	 * Usuario capturado por la persona
 	 */
@@ -38,7 +47,7 @@ public class LoginController {
 
 	@ManagedProperty("#{sessionBean}")
 	private SessionBean sessionBean;
-	
+
 	@PostConstruct
 	public void init() {
 		System.out.println("Inicializando login");
@@ -52,7 +61,15 @@ public class LoginController {
 		Persona personaConsultada = this.loginServiceImpl.consultarUsuarioLogin(this.usuario, this.password);
 		if (personaConsultada != null) {
 			try {
+				List<CarritoAlbum> carritoAlbumFiltrados = personaConsultada.getCarrito().getCarritosAlbum().stream()
+						.filter(ca -> ca.getEstatus().equals("pendiente")).collect(Collectors.toList());
+				
+				personaConsultada.getCarrito().setCarritosAlbum(carritoAlbumFiltrados);
+				
+				LOGGER.info("ALbums del carrito filtrado" );
+				
 				this.sessionBean.setPersona(personaConsultada);
+				
 				CommonUtils.redireccionar("/pages/commons/dashboard.xhtml");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
