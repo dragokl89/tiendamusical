@@ -659,3 +659,63 @@
 12:30:21.222 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
 12:31:00.071 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
 12:37:21.172 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+12:52:59.036 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Eliminando albumThe Number Of The Beastcarrito
+12:52:59.083 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+18:32:46.741 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+18:32:47.277 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:32:47.449 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 142 ms. Found 3 JPA repository interfaces.
+18:32:48.072 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:32:48.260 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+18:32:48.724 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:32:49.449 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:32:51.195 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:32:51.222 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:32:52.499 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5745 ms
+18:33:01.113 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.controllers.LoginController - ALbums del carrito filtrado
+18:33:01.434 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+18:33:01.435 [http-nio-8080-exec-6] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+18:33:01.435 [http-nio-8080-exec-6] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+18:33:01.435 [http-nio-8080-exec-6] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+18:33:04.431 [http-nio-8080-exec-1] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+18:33:04.654 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+19:09:04.348 [Catalina-utility-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+19:09:08.784 [Catalina-utility-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+19:09:09.349 [Catalina-utility-1] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:09:09.497 [Catalina-utility-1] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125 ms. Found 3 JPA repository interfaces.
+19:09:10.084 [Catalina-utility-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:09:10.241 [Catalina-utility-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+19:09:10.623 [Catalina-utility-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:09:11.408 [Catalina-utility-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+19:09:13.264 [Catalina-utility-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:09:13.288 [Catalina-utility-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:09:14.559 [Catalina-utility-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5762 ms
+19:11:39.400 [Catalina-utility-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+19:11:43.444 [Catalina-utility-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+19:11:43.969 [Catalina-utility-1] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:11:44.125 [Catalina-utility-1] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 135 ms. Found 3 JPA repository interfaces.
+19:11:44.701 [Catalina-utility-1] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:11:44.856 [Catalina-utility-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+19:11:45.221 [Catalina-utility-1] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:11:45.924 [Catalina-utility-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+19:11:47.691 [Catalina-utility-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:11:47.718 [Catalina-utility-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:11:49.024 [Catalina-utility-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5567 ms
+19:12:06.504 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+19:16:40.928 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+19:16:41.422 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:16:41.610 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 157 ms. Found 3 JPA repository interfaces.
+19:16:42.205 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:16:42.348 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+19:16:42.681 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:16:43.344 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+19:16:44.978 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:16:45.012 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:16:46.224 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5283 ms
+19:16:54.945 [http-nio-8080-exec-8] INFO  com.devpredator.tiendamusicalweb.controllers.LoginController - ALbums del carrito filtrado
+19:16:55.333 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+19:16:55.333 [http-nio-8080-exec-5] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+19:16:55.333 [http-nio-8080-exec-5] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+19:16:55.333 [http-nio-8080-exec-5] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+19:16:57.640 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+19:16:57.842 [http-nio-8080-exec-9] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+19:17:11.558 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
