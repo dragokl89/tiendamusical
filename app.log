@@ -719,3 +719,344 @@
 19:16:57.640 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
 19:16:57.842 [http-nio-8080-exec-9] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
 19:17:11.558 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+15:56:04.192 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+15:56:04.764 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15:56:04.907 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 114 ms. Found 3 JPA repository interfaces.
+15:56:05.454 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:56:05.598 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+15:56:05.941 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15:56:06.633 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+15:56:08.226 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:56:08.253 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:56:09.492 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5283 ms
+15:56:22.407 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.LoginController - ALbums del carrito filtrado
+15:56:22.711 [http-nio-8080-exec-8] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+15:56:22.712 [http-nio-8080-exec-8] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+15:56:22.712 [http-nio-8080-exec-8] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+15:56:22.712 [http-nio-8080-exec-8] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+15:56:24.505 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+15:56:24.681 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+15:56:51.752 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+15:56:51.810 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+15:57:38.510 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+15:57:38.552 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+15:57:45.556 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+15:57:45.556 [http-nio-8080-exec-6] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+15:57:45.556 [http-nio-8080-exec-6] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+15:57:45.556 [http-nio-8080-exec-6] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+15:57:47.102 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Iron Maiden
+15:57:47.102 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+15:57:47.102 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+15:57:49.446 [http-nio-8080-exec-9] INFO  com.devpredator.tiendamusicalweb.controllers.DetalleController - Agregando album al carrito de compra , Cantidad :1
+15:57:50.475 [http-nio-8080-exec-2] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+15:57:50.554 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+16:08:47.238 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+16:11:34.060 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:12:25.147 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+16:12:25.845 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:12:25.998 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125 ms. Found 3 JPA repository interfaces.
+16:12:26.575 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:12:26.735 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+16:12:27.076 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:12:27.737 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16:12:29.382 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:12:29.407 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:12:30.652 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5483 ms
+16:12:38.692 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.LoginController - ALbums del carrito filtrado
+16:12:38.987 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+16:12:38.987 [http-nio-8080-exec-3] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+16:12:38.987 [http-nio-8080-exec-3] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+16:12:38.987 [http-nio-8080-exec-3] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+16:12:42.260 [http-nio-8080-exec-8] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+16:12:42.453 [http-nio-8080-exec-1] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+16:12:50.409 [http-nio-8080-exec-2] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+16:13:58.128 [http-nio-8080-exec-9] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+16:16:12.035 [Catalina-utility-2] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:16:16.298 [Catalina-utility-2] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+16:16:16.942 [Catalina-utility-2] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:16:17.151 [Catalina-utility-2] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 183 ms. Found 3 JPA repository interfaces.
+16:16:17.876 [Catalina-utility-2] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:16:18.024 [Catalina-utility-2] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+16:16:18.421 [Catalina-utility-2] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:16:19.193 [Catalina-utility-2] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16:16:21.241 [Catalina-utility-2] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:16:21.272 [Catalina-utility-2] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:16:22.809 [Catalina-utility-2] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 6496 ms
+16:21:38.352 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+16:21:38.864 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:21:39.016 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 127 ms. Found 3 JPA repository interfaces.
+16:21:39.579 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:21:39.734 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+16:21:40.087 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:21:40.771 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16:21:42.493 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:21:42.520 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:21:43.876 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5511 ms
+16:21:55.890 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.LoginController - ALbums del carrito filtrado
+16:21:56.230 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+16:21:56.231 [http-nio-8080-exec-4] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+16:21:56.231 [http-nio-8080-exec-4] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+16:21:56.231 [http-nio-8080-exec-4] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+16:21:58.244 [http-nio-8080-exec-8] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+16:21:58.418 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+16:22:11.168 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+16:23:30.252 [http-nio-8080-exec-1] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+16:24:08.039 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:25:10.017 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+16:25:10.794 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:25:10.958 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 137 ms. Found 3 JPA repository interfaces.
+16:25:11.676 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:25:11.855 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+16:25:12.287 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:25:13.178 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16:25:15.085 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:25:15.114 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:25:16.785 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 6747 ms
+16:25:23.980 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.LoginController - ALbums del carrito filtrado
+16:25:24.390 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+16:25:24.391 [http-nio-8080-exec-5] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+16:25:24.391 [http-nio-8080-exec-5] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+16:25:24.391 [http-nio-8080-exec-5] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+16:25:26.005 [http-nio-8080-exec-8] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+16:25:26.248 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+16:25:40.267 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+16:28:18.153 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:28:51.053 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+16:28:51.788 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:28:51.942 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 127 ms. Found 3 JPA repository interfaces.
+16:28:52.540 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:28:52.697 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+16:28:53.081 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:28:53.853 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16:28:55.594 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:28:55.620 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:28:57.159 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 6091 ms
+16:29:39.693 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.LoginController - ALbums del carrito filtrado
+16:29:40.093 [http-nio-8080-exec-2] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+16:29:40.093 [http-nio-8080-exec-2] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+16:29:40.094 [http-nio-8080-exec-2] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+16:29:40.094 [http-nio-8080-exec-2] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+16:29:40.913 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+16:29:41.107 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+16:30:06.208 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+16:30:13.877 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - Ingresando a la funcion de crearOrden...
+16:32:29.619 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+16:32:29.623 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - Ingresando a la funcion de crearOrden...
+16:36:34.673 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+16:36:35.201 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:36:35.341 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 115 ms. Found 3 JPA repository interfaces.
+16:36:35.897 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:36:36.038 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+16:36:36.380 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:36:37.018 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16:36:38.586 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:36:38.609 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:36:39.842 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5153 ms
+16:36:46.205 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.LoginController - ALbums del carrito filtrado
+16:36:46.589 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+16:36:46.590 [http-nio-8080-exec-4] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+16:36:46.590 [http-nio-8080-exec-4] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+16:36:46.591 [http-nio-8080-exec-4] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+16:37:07.501 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+16:37:07.683 [http-nio-8080-exec-2] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+16:37:49.084 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+16:37:49.152 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - Ingresando a la funcion de crearOrden...
+16:38:47.633 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:39:21.238 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+16:39:21.965 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:39:22.148 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 150 ms. Found 3 JPA repository interfaces.
+16:39:22.809 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:39:22.966 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+16:39:23.362 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:39:24.123 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16:39:25.837 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:39:25.862 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:39:27.404 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 6148 ms
+16:39:37.344 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.LoginController - ALbums del carrito filtrado
+16:39:37.738 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+16:39:37.739 [http-nio-8080-exec-5] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+16:39:37.739 [http-nio-8080-exec-5] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+16:39:37.739 [http-nio-8080-exec-5] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+16:39:39.447 [http-nio-8080-exec-8] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+16:39:39.680 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+16:39:49.739 [http-nio-8080-exec-1] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+16:39:49.838 [http-nio-8080-exec-1] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - Ingresando a la funcion de crearOrden...
+16:41:17.332 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:41:51.003 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+16:41:51.579 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:41:51.766 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 156 ms. Found 3 JPA repository interfaces.
+16:41:52.408 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:41:52.609 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+16:41:53.026 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:41:53.843 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16:41:55.676 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:41:55.706 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:41:57.219 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 6201 ms
+16:42:06.942 [http-nio-8080-exec-2] INFO  com.devpredator.tiendamusicalweb.controllers.LoginController - ALbums del carrito filtrado
+16:42:07.331 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+16:42:07.331 [http-nio-8080-exec-5] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+16:42:07.331 [http-nio-8080-exec-5] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+16:42:07.331 [http-nio-8080-exec-5] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+16:42:16.557 [http-nio-8080-exec-9] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+16:42:16.799 [http-nio-8080-exec-2] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+16:42:22.830 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+16:42:22.926 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - Ingresando a la funcion de crearOrden...
+16:43:18.203 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - [{"amountWithBreakdown":{"amountBreakdown":{"handling":{"currencyCode":"USD","value":"10.0"},"itemTotal":{"currencyCode":"USD","value":"3.4"},"shipping":{"currencyCode":"USD","value":"20.0"},"shippingDiscount":{"currencyCode":"USD","value":"20.0"},"taxTotal":{"currencyCode":"USD","value":"20.0"}},"currencyCode":"USD","value":"33.4"},"items":[{"category":"PHYSICAL_GOODS","description":"Es el nombre del quinto álbum de estudio de la ban","name":"Resistance","quantity":"1","sku":"sku1","tax":{"currencyCode":"USD","value":"10.0"},"unitAmount":{"currencyCode":"USD","value":"140.0"}},{"category":"PHYSICAL_GOODS","description":"Es el tercer álbum de estudio de la banda británic","name":"The Number Of The Beast","quantity":"1","sku":"sku1","tax":{"currencyCode":"USD","value":"10.0"},"unitAmount":{"currencyCode":"USD","value":"199.99"}}],"shippingDetail":{"addressPortable":{"addressLine1":"Fransisco Ruiz","addressLine2":"Bartolome Carbo","adminArea1":"ECUADOR","adminArea2":"QUITO","countryCode":"EC","postalCode":"170302"},"name":{"fullName":"Pablo Sanchez Nose"}}}]
+16:49:58.251 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+16:49:58.867 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:49:59.027 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 132 ms. Found 3 JPA repository interfaces.
+16:49:59.653 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:49:59.857 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+16:50:00.302 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:50:01.211 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16:50:02.976 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:50:03.022 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:50:04.708 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 6442 ms
+16:50:11.476 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.LoginController - ALbums del carrito filtrado
+16:50:11.833 [http-nio-8080-exec-8] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+16:50:11.834 [http-nio-8080-exec-8] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+16:50:11.834 [http-nio-8080-exec-8] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+16:50:11.834 [http-nio-8080-exec-8] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+16:50:13.725 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+16:50:13.929 [http-nio-8080-exec-1] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+16:50:23.415 [http-nio-8080-exec-1] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+16:50:23.508 [http-nio-8080-exec-1] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - Ingresando a la funcion de crearOrden...
+16:51:28.764 [http-nio-8080-exec-1] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - [{"amountWithBreakdown":{"amountBreakdown":{"handling":{"currencyCode":"USD","value":"10.0"},"itemTotal":{"currencyCode":"USD","value":"3.4"},"shipping":{"currencyCode":"USD","value":"20.0"},"shippingDiscount":{"currencyCode":"USD","value":"20.0"},"taxTotal":{"currencyCode":"USD","value":"20.0"}},"currencyCode":"USD","value":"33.4"},"items":[{"category":"PHYSICAL_GOODS","description":"Es el nombre del quinto álbum de estudio de la ban","name":"Resistance","quantity":"1","sku":"sku1","tax":{"currencyCode":"USD","value":"10.0"},"unitAmount":{"currencyCode":"USD","value":"140.0"}},{"category":"PHYSICAL_GOODS","description":"Es el tercer álbum de estudio de la banda británic","name":"The Number Of The Beast","quantity":"1","sku":"sku1","tax":{"currencyCode":"USD","value":"10.0"},"unitAmount":{"currencyCode":"USD","value":"199.99"}}],"shippingDetail":{"addressPortable":{"addressLine1":"Fransisco Ruiz","addressLine2":"Bartolome Carbo","adminArea1":"ECUADOR","adminArea2":"QUITO","countryCode":"EC","postalCode":"170302"},"name":{"fullName":"Pablo Sanchez Nose"}}}]
+16:56:56.278 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:57:35.785 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+16:57:36.506 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:57:36.698 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 152 ms. Found 3 JPA repository interfaces.
+16:57:37.336 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:57:37.495 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+16:57:37.882 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:57:38.649 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+16:57:40.425 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:57:40.457 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:57:41.880 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 6080 ms
+17:11:20.898 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+17:11:21.602 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:11:21.779 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 146 ms. Found 3 JPA repository interfaces.
+17:11:22.524 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:11:22.694 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+17:11:23.143 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:11:23.938 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+17:11:25.732 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:11:25.757 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:11:27.304 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 6390 ms
+17:11:36.117 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.LoginController - ALbums del carrito filtrado
+17:11:36.502 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+17:11:36.503 [http-nio-8080-exec-5] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+17:11:36.503 [http-nio-8080-exec-5] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+17:11:36.503 [http-nio-8080-exec-5] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+17:11:38.944 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+17:11:39.235 [http-nio-8080-exec-8] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+17:11:45.316 [http-nio-8080-exec-2] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Eliminando albumThe Number Of The Beastcarrito
+17:11:45.459 [http-nio-8080-exec-2] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+17:11:57.207 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+17:11:57.330 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - Ingresando a la funcion de crearOrden...
+17:13:00.728 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - [{"amountWithBreakdown":{"amountBreakdown":{"handling":{"currencyCode":"USD","value":"10.0"},"itemTotal":{"currencyCode":"USD","value":"140.0"},"shipping":{"currencyCode":"USD","value":"20.0"},"shippingDiscount":{"currencyCode":"USD","value":"20.0"},"taxTotal":{"currencyCode":"USD","value":"10.0"}},"currencyCode":"USD","value":"160.0"},"items":[{"category":"PHYSICAL_GOODS","description":"Es el nombre del quinto álbum de estudio de la ban","name":"Resistance","quantity":"1","sku":"sku1","tax":{"currencyCode":"USD","value":"10.0"},"unitAmount":{"currencyCode":"USD","value":"140.0"}}],"shippingDetail":{"addressPortable":{"addressLine1":"Fransisco Ruiz","addressLine2":"Bartolome Carbo","adminArea1":"ECUADOR","adminArea2":"QUITO","countryCode":"EC","postalCode":"170302"},"name":{"fullName":"Pablo Sanchez Nose"}}}]
+17:14:44.760 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+17:14:45.431 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:14:45.639 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 172 ms. Found 3 JPA repository interfaces.
+17:14:46.284 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:14:46.456 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+17:14:46.843 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:14:47.610 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+17:14:49.399 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:14:49.425 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:14:50.738 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5962 ms
+17:15:20.540 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.controllers.LoginController - ALbums del carrito filtrado
+17:15:20.918 [http-nio-8080-exec-2] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+17:15:20.918 [http-nio-8080-exec-2] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+17:15:20.918 [http-nio-8080-exec-2] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+17:15:20.918 [http-nio-8080-exec-2] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+17:15:23.461 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+17:15:23.645 [http-nio-8080-exec-1] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+17:15:26.470 [http-nio-8080-exec-9] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+17:15:26.470 [http-nio-8080-exec-9] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+17:15:26.470 [http-nio-8080-exec-9] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+17:15:26.470 [http-nio-8080-exec-9] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+17:15:27.828 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Iron Maiden
+17:15:27.828 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+17:15:27.828 [http-nio-8080-exec-7] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - Artista: +Metallica
+17:15:30.963 [http-nio-8080-exec-1] INFO  com.devpredator.tiendamusicalweb.controllers.DetalleController - Agregando album al carrito de compra , Cantidad :1
+17:15:32.608 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+17:15:32.678 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+17:15:44.673 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+17:15:44.794 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - Ingresando a la funcion de crearOrden...
+17:18:20.429 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+17:18:21.060 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:18:21.223 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 130 ms. Found 3 JPA repository interfaces.
+17:18:21.849 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:18:22.032 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+17:18:22.413 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:18:23.139 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+17:18:25.072 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:18:25.100 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:18:26.472 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 6029 ms
+17:18:32.993 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.controllers.LoginController - ALbums del carrito filtrado
+17:18:33.351 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+17:18:33.351 [http-nio-8080-exec-3] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+17:18:33.351 [http-nio-8080-exec-3] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+17:18:33.351 [http-nio-8080-exec-3] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+17:18:35.515 [http-nio-8080-exec-8] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+17:18:35.774 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+17:18:41.553 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+17:18:41.681 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - Ingresando a la funcion de crearOrden...
+17:19:13.598 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - [{"amountWithBreakdown":{"amountBreakdown":{"handling":{"currencyCode":"USD","value":"10.0"},"itemTotal":{"currencyCode":"USD","value":"339.989990234375"},"shipping":{"currencyCode":"USD","value":"20.0"},"shippingDiscount":{"currencyCode":"USD","value":"20.0"},"taxTotal":{"currencyCode":"USD","value":"20.0"}},"currencyCode":"USD","value":"369.989990234375"},"items":[{"category":"PHYSICAL_GOODS","description":"Es el nombre del quinto álbum de estudio de la ban","name":"Resistance","quantity":"1","sku":"sku1","tax":{"currencyCode":"USD","value":"10.0"},"unitAmount":{"currencyCode":"USD","value":"140.0"}},{"category":"PHYSICAL_GOODS","description":"Es el tercer álbum de estudio de la banda británic","name":"The Number Of The Beast","quantity":"1","sku":"sku1","tax":{"currencyCode":"USD","value":"10.0"},"unitAmount":{"currencyCode":"USD","value":"199.99"}}],"shippingDetail":{"addressPortable":{"addressLine1":"Fransisco Ruiz","addressLine2":"Bartolome Carbo","adminArea1":"ECUADOR","adminArea2":"QUITO","countryCode":"EC","postalCode":"170302"},"name":{"fullName":"Pablo Sanchez Nose"}}}]
+17:22:06.769 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+17:22:07.233 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:22:07.373 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 117 ms. Found 3 JPA repository interfaces.
+17:22:07.904 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:22:08.047 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+17:22:08.386 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:22:09.050 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+17:22:10.684 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:22:10.708 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:22:11.875 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5094 ms
+17:22:20.230 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.LoginController - ALbums del carrito filtrado
+17:22:20.758 [http-nio-8080-exec-5] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+17:22:20.758 [http-nio-8080-exec-5] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+17:22:20.758 [http-nio-8080-exec-5] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+17:22:20.759 [http-nio-8080-exec-5] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+17:22:22.680 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+17:22:22.893 [http-nio-8080-exec-10] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+17:22:29.277 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+17:22:29.349 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - Ingresando a la funcion de crearOrden...
+17:22:29.486 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - [{"amountWithBreakdown":{"amountBreakdown":{"handling":{"currencyCode":"USD","value":"10.0"},"itemTotal":{"currencyCode":"USD","value":"339.99"},"shipping":{"currencyCode":"USD","value":"20.0"},"shippingDiscount":{"currencyCode":"USD","value":"20.0"},"taxTotal":{"currencyCode":"USD","value":"20.0"}},"currencyCode":"USD","value":"369.99"},"items":[{"category":"PHYSICAL_GOODS","description":"Es el nombre del quinto álbum de estudio de la ban","name":"Resistance","quantity":"1","sku":"sku1","tax":{"currencyCode":"USD","value":"10.0"},"unitAmount":{"currencyCode":"USD","value":"140.0"}},{"category":"PHYSICAL_GOODS","description":"Es el tercer álbum de estudio de la banda británic","name":"The Number Of The Beast","quantity":"1","sku":"sku1","tax":{"currencyCode":"USD","value":"10.0"},"unitAmount":{"currencyCode":"USD","value":"199.99"}}],"shippingDetail":{"addressPortable":{"addressLine1":"Fransisco Ruiz","addressLine2":"Bartolome Carbo","adminArea1":"ECUADOR","adminArea2":"QUITO","countryCode":"EC","postalCode":"170302"},"name":{"fullName":"Pablo Sanchez Nose"}}}]
+17:25:09.086 [http-nio-8080-exec-1] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+17:25:09.088 [http-nio-8080-exec-1] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - Ingresando a la funcion de crearOrden...
+17:25:09.091 [http-nio-8080-exec-1] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - [{"amountWithBreakdown":{"amountBreakdown":{"handling":{"currencyCode":"USD","value":"10.0"},"itemTotal":{"currencyCode":"USD","value":"339.99"},"shipping":{"currencyCode":"USD","value":"20.0"},"shippingDiscount":{"currencyCode":"USD","value":"20.0"},"taxTotal":{"currencyCode":"USD","value":"20.0"}},"currencyCode":"USD","value":"369.99"},"items":[{"category":"PHYSICAL_GOODS","description":"Es el nombre del quinto álbum de estudio de la ban","name":"Resistance","quantity":"1","sku":"sku1","tax":{"currencyCode":"USD","value":"10.0"},"unitAmount":{"currencyCode":"USD","value":"140.0"}},{"category":"PHYSICAL_GOODS","description":"Es el tercer álbum de estudio de la banda británic","name":"The Number Of The Beast","quantity":"1","sku":"sku1","tax":{"currencyCode":"USD","value":"10.0"},"unitAmount":{"currencyCode":"USD","value":"199.99"}}],"shippingDetail":{"addressPortable":{"addressLine1":"Fransisco Ruiz","addressLine2":"Bartolome Carbo","adminArea1":"ECUADOR","adminArea2":"QUITO","countryCode":"EC","postalCode":"170302"},"name":{"fullName":"Pablo Sanchez Nose"}}}]
+17:34:39.287 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:45:25.126 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+17:45:25.778 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:45:25.938 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 127 ms. Found 3 JPA repository interfaces.
+17:45:26.562 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:45:26.732 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+17:45:27.142 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:45:27.917 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+17:45:29.954 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:45:29.992 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:45:31.486 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 6343 ms
+17:52:59.664 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:22:45.989 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+18:22:46.569 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:22:46.729 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 130 ms. Found 3 JPA repository interfaces.
+18:22:47.311 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:22:47.489 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.28.Final
+18:22:47.866 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:22:48.718 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:22:50.585 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:22:50.609 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:22:51.918 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 5909 ms
+18:23:01.021 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.LoginController - ALbums del carrito filtrado
+18:23:01.416 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.controllers.HomeController - INFO
+18:23:01.417 [http-nio-8080-exec-4] WARN  com.devpredator.tiendamusicalweb.controllers.HomeController - WARN
+18:23:01.417 [http-nio-8080-exec-4] ERROR com.devpredator.tiendamusicalweb.controllers.HomeController - ERROR
+18:23:01.417 [http-nio-8080-exec-4] FATAL com.devpredator.tiendamusicalweb.controllers.HomeController - FATAL
+18:23:02.952 [http-nio-8080-exec-9] INFO  com.devpredator.tiendamusicalweb.controllers.NavBarController - inicializando pantlla del carrito
+18:26:35.593 [http-nio-8080-exec-3] INFO  com.devpredator.tiendamusicalweb.controllers.CarritoController - Calculando total
+18:26:38.851 [http-nio-8080-exec-6] INFO  com.devpredator.tiendamusicalweb.controllers.PasosController - Ingresando a PasosController.
+18:26:41.658 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalServlet - Generando orden paypal
+18:26:41.726 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - Ingresando a la funcion de crearOrden...
+18:26:41.893 [http-nio-8080-exec-4] INFO  com.devpredator.tiendamusicalweb.paypal.PayPalCreateOrder - [{"amountWithBreakdown":{"amountBreakdown":{"handling":{"currencyCode":"USD","value":"10.0"},"itemTotal":{"currencyCode":"USD","value":"339.99"},"shipping":{"currencyCode":"USD","value":"20.0"},"shippingDiscount":{"currencyCode":"USD","value":"20.0"},"taxTotal":{"currencyCode":"USD","value":"20.0"}},"currencyCode":"USD","value":"369.99"},"items":[{"category":"PHYSICAL_GOODS","description":"Es el nombre del quinto álbum de estudio de la ban","name":"Resistance","quantity":"1","sku":"sku1","tax":{"currencyCode":"USD","value":"10.0"},"unitAmount":{"currencyCode":"USD","value":"140.0"}},{"category":"PHYSICAL_GOODS","description":"Es el tercer álbum de estudio de la banda británic","name":"The Number Of The Beast","quantity":"1","sku":"sku1","tax":{"currencyCode":"USD","value":"10.0"},"unitAmount":{"currencyCode":"USD","value":"199.99"}}],"shippingDetail":{"addressPortable":{"addressLine1":"Fransisco Ruiz","addressLine2":"Bartolome Carbo","adminArea1":"ECUADOR","adminArea2":"QUITO","countryCode":"EC","postalCode":"170302"},"name":{"fullName":"Pablo Sanchez Nose"}}}]

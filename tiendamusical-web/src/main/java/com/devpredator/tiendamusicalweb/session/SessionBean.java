@@ -9,6 +9,8 @@ import javax.faces.bean.SessionScoped;
 
 import com.devpredator.tiendamusicalentities.dto.ArtistaAlbumDTO;
 import com.devpredator.tiendamusicalentities.entities.Persona;
+import com.paypal.http.HttpResponse;
+import com.paypal.orders.Order;
 
 /**
  * @author c-ado
@@ -30,7 +32,15 @@ public class SessionBean {
 	 * Total generado de la compra en sesion 
 	 */
     private float totalCompra;
-	
+	/**
+	 * Orden generada por PayPal
+	 */
+    private HttpResponse<Order> order;
+    /**
+     * Paso en que se encuentra el usuario
+     */
+    private int paso;
+    
 	@PostConstruct
 	public void init() {
 		System.out.println("Creando sesion");
@@ -77,6 +87,37 @@ public class SessionBean {
 	public void setTotalCompra(float totalCompra) {
 		this.totalCompra = totalCompra;
 	}
+
+	/**
+	 * @return the order
+	 */
+	public HttpResponse<Order> getOrder() {
+		return order;
+	}
+
+	/**
+	 * @param order the order to set
+	 */
+	public void setOrder(HttpResponse<Order> order) {
+		this.order = order;
+	}
+
+	/**
+	 * @return the paso
+	 */
+	public int getPaso() {
+		return paso;
+	}
+
+	/**
+	 * @param paso the paso to set
+	 */
+	public void setPaso(int paso) {
+		this.paso = paso;
+	}
+
+
+
 
 
 

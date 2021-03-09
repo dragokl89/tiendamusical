@@ -6,11 +6,16 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.devpredator.tiendamusicalweb.controllers.DetalleController;
+
+import com.devpredator.tiendamusicalweb.session.SessionBean;
+import com.google.gson.Gson;
+import com.paypal.http.HttpResponse;
+import com.paypal.orders.Order;
 
 /**
  * 
@@ -43,6 +48,14 @@ public class PayPalServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		LOGGER.info("Generando orden paypal");
+		PayPalCreateOrder payPalCreateOrder = new PayPalCreateOrder();
+		HttpSession session = request.getSession(false);
+		if(session.getAttribute("sessionBean")!=null) {
+			SessionBean sessionBean =(SessionBean) session.getAttribute("sessionBean");
+				HttpResponse<Order> order = payPalCreateOrder.crearOrden(sessionBean);
+				Gson gson = new Gson();
+				response.getWriter().write(gson.toJson(order));
+		}
 	}
 
 }

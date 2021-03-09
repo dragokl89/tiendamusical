@@ -39,6 +39,7 @@ public class CarritoController {
 	 */
 	@PostConstruct
 	public void init() {
+		this.sessionBean.setPaso(0);
 		this.calcularTotal();
 	}
 
