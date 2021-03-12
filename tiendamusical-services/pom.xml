@@ -50,6 +50,23 @@
 			<groupId>org.apache.commons</groupId>
 			<version>${commons-lang3-version}</version>
 		</dependency>
+		<!-- Dependencia que permite consumir un webservice con jersey -->
+		<dependency>
+			<groupId>org.glassfish.jersey.media</groupId>
+			<artifactId>jersey-media-json-jackson</artifactId>
+			<version>${jersey-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jersey.core</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>${jersey-version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.glassfish.jersey.inject</groupId>
+			<artifactId>jersey-hk2</artifactId>
+			<version>${jersey-hk2}</version>
+		</dependency>
 
 
 	</dependencies>

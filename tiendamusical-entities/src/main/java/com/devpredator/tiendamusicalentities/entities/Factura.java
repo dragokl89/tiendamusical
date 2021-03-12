@@ -28,7 +28,7 @@ public class Factura extends Common{
 	private String orderId;
 	
 	@Column(length = 50 ,nullable = false)
-	private String impuestoTotal;
+	private double impuestoTotal;
 	
 	@Column(nullable = false)
 	private double envio;
@@ -92,19 +92,7 @@ public class Factura extends Common{
 		this.orderId = orderId;
 	}
 
-	/**
-	 * @return the impuestoTotal
-	 */
-	public String getImpuestoTotal() {
-		return impuestoTotal;
-	}
 
-	/**
-	 * @param impuestoTotal the impuestoTotal to set
-	 */
-	public void setImpuestoTotal(String impuestoTotal) {
-		this.impuestoTotal = impuestoTotal;
-	}
 
 	/**
 	 * @return the envio
@@ -258,6 +246,20 @@ public class Factura extends Common{
 	 */
 	public void setCarritosAlbum(List<CarritoAlbum> carritosAlbum) {
 		this.carritosAlbum = carritosAlbum;
+	}
+
+	/**
+	 * @return the impuestoTotal
+	 */
+	public double getImpuestoTotal() {
+		return impuestoTotal;
+	}
+
+	/**
+	 * @param impuestoTotal the impuestoTotal to set
+	 */
+	public void setImpuestoTotal(double impuestoTotal) {
+		this.impuestoTotal = impuestoTotal;
 	}
 	
 }
