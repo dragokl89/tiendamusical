@@ -53,7 +53,9 @@
 											style="color: white">
 											<f:convertNumber type="currency" currencySymbol="$"></f:convertNumber>
 										</h:outputText>
-
+										<p:commandButton url="#" icon="pi pi-shopping-cart"
+											action="#{homeController.agregarAlbumCarrito(artistaAlbumDTO)}"
+											title="Shop" update="formDashboard:btnShopping"></p:commandButton>
 									</h:panelGrid>
 								</p:panel>
 
@@ -79,15 +81,15 @@
 											<h:outputText value="Precio: " style="color: white;" />
 											<h:outputText value="#{artistaAlbumDTO.album.valor}"
 												style="color: white;">
-												<f:convertNumber type="currency" 
-													currencySymbol="$"></f:convertNumber>
+												<f:convertNumber type="currency" currencySymbol="$"></f:convertNumber>
 											</h:outputText>
 
 										</h:panelGrid>
 									</p:outputPanel>
 
 									<p:commandButton url="#" icon="pi pi-shopping-cart"
-										title="Shop"></p:commandButton>
+										action="#{homeController.agregarAlbumCarrito(artistaAlbumDTO)}"
+										title="Shop" update="formDashboard:btnShopping"></p:commandButton>
 								</h:panelGrid>
 							</p:dataViewListItem>
 						</p:dataView>

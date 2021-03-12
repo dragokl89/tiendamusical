@@ -122,7 +122,7 @@ public class PayPalCreateOrder extends PayPalClient {
 																	.addressLine2("Bartolome Carbo")
 																	.adminArea1("ECUADOR")
 																	.adminArea2("QUITO")
-																	.postalCode("170302")
+																	.postalCode("593")
 																	.countryCode("EC"));
 				
 				//Se aplica un formato a la cantidad del total de compra de los productos.

@@ -16,7 +16,7 @@ public class Common {
 	@Column(nullable = false)
 	private LocalDateTime fechaCreacion;
 	
-	@Column(nullable = false)
+	@Column
 	private LocalDateTime fechaModificacion;
 	
 	@Column(nullable = false)
